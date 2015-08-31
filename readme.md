@@ -5,7 +5,7 @@ __[Rensselaer Polytechnic Institute](http://www.rpi.edu), [Department of Arts](h
 Fall 2015 :: Tu/F 10a - 12p :: WH 211 :: Office Hours Tu/F 2p - 3p
 
 ### Goal:
-Create anything, seriously. And stretch what the common definitions of art and code mean/could mean.
+Create anything, seriously. And stretch what the common definitions of art and code mean/could mean. Modify this - make pull request, change, update, improve. 
 
 ## Generally:
 

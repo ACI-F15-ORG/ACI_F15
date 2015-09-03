@@ -36,6 +36,7 @@ Also check RPI Library's Safari On-line collection for these.
 - [OF Addons](http://ofxaddons.com/)
 
 #### Git
+- [Github Guide](https://guides.github.com)
 - [GIT Reference](http://gitref.org/)
 - [GIT Tutorial](http://try.github.com/levels/1/challenges/1)
 - [GIT Visual CheatSheet](http://ndpsoftware.com/git-cheatsheet.html)

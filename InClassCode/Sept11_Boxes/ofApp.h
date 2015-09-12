@@ -1,12 +1,12 @@
 #pragma once
 
 #include "ofMain.h"
-
+// including our class so that our program knows about it
 #include "MyBox.h"
 
 class ofApp : public ofBaseApp{
 
-//    MyBox box;
+// data structure to hold our objects
     vector<MyBox> boxes;
     
 	public:

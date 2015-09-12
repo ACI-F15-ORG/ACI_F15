@@ -13,19 +13,24 @@
 
 class MyBox {
     
+    // private properties of our object
     ofVec3f position;
     ofVec3f velocity;
     ofVec3f acceleration;
+
+    ofMesh mesh;
+
+    // these aren't being used yet.
     ofVec3f rotationAngle;
     float   rotationSpeed;
     
     ofColor faceColor;
     ofColor lineColor;
     
-    ofMesh mesh;
-    
 public:
+    // simple default constructor
     MyBox();
+    // more complex constructor for being more specific
     MyBox( ofVec3f startPosition,
            ofVec3f startVelocity,
            ofVec3f startAcceleration);

@@ -33,10 +33,11 @@ MyBox::MyBox( ofVec3f startPosition,
     velocity = startVelocity;
     acceleration = startAcceleration;
     
+    mesh = ofMesh::box(100, 100, 100, 1, 1, 1);
+
+    // assigned but not used yet.
     rotationAngle = ofVec3f(ofRandomf(), ofRandomf(), ofRandomf());
     rotationSpeed = ofRandom(10);
-    
-    mesh = ofMesh::box(100, 100, 100, 1, 1, 1);
 }
 
 void MyBox::update()

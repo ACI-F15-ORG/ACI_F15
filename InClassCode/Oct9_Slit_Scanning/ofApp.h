@@ -19,9 +19,12 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+	//	the object that opens our camera	
     ofVideoGrabber  vidGrabber;
     int             camWidth, camHeight;
+    // a drawable "fast" object
     ofTexture       vidTexture;
+    // raw pixels that are assigned to the texture
     ofPixels        vidPixels;
     
     int             column = 0;
